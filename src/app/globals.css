@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  --background: #10091E;
+  --surface: #1D1232;
+  --elevated: #291A43;
+  --brand-primary: #6D28D9;
+  --brand-primary-hover: #7C3AED;
+  --brand-accent: #A855F7;
+  --highlight: #C9A7FF;
+  --text: #F8F5FF;
+  --text-muted: #B9A9CC;
+  --brand-border: #44315F;
+  --control-border: #837097;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--text);
+  --color-card: var(--surface);
+  --color-card-foreground: var(--text);
+  --color-popover: var(--elevated);
+  --color-popover-foreground: var(--text);
+  --color-primary: var(--brand-primary);
+  --color-primary-foreground: var(--text);
+  --color-primary-hover: var(--brand-primary-hover);
+  --color-secondary: var(--elevated);
+  --color-secondary-foreground: var(--text);
+  --color-muted: var(--elevated);
+  --color-muted-foreground: var(--text-muted);
+  --color-accent: var(--brand-accent);
+  --color-accent-foreground: var(--background);
+  --color-border: var(--brand-border);
+  --color-input: var(--control-border);
+  --color-ring: var(--highlight);
+}
+
+body {
+  min-block-size: 100dvh;
+  background: radial-gradient(ellipse at top, var(--surface), var(--background) 70%);
+  color: var(--text);
+  font-family: var(--font-inter, system-ui), sans-serif;
+}
+
+html[lang="ar"] body {
+  font-family: var(--font-plex-arabic, system-ui), sans-serif;
+}
+
+:focus-visible {
+  outline: 2px solid var(--highlight);
+  outline-offset: 4px;
+}
+
+.site-container {
+  inline-size: min(100% - 2rem, 72rem);
+  margin-inline: auto;
+}
+
+.skip-link {
+  position: absolute;
+  z-index: 60;
+  inset-block-start: 0.75rem;
+  inset-inline-start: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background: var(--highlight);
+  color: var(--background);
+}
+
+.skip-link:not(:focus) {
+  clip-path: inset(50%);
+}
+
+.site-header {
+  background-color: var(--background);
+  transition: background-color 180ms ease;
+}
+
+.site-header[data-scrolled="true"] {
+  background-color: color-mix(in srgb, var(--background) 88%, transparent);
+  backdrop-filter: blur(12px);
+}
+
+#main-content,
+main section[id] {
+  scroll-margin-block-start: 6.5rem;
+}
+
+
+.hero-visual {
+  background: radial-gradient(ellipse at center, #6d28d942, transparent 70%);
+}
+
+.hero-dashboard {
+  inset-block-start: 9%;
+  inset-inline-start: 3%;
+  inline-size: 77%;
+  block-size: 74%;
+}
+
+.hero-dashboard i {
+  inline-size: 0.35rem;
+  block-size: 0.35rem;
+  border-radius: 50%;
+  background: var(--highlight);
+}
+
+.hero-grid {
+  display: grid;
+  place-items: center;
+  background:
+    linear-gradient(#a855f71d 1px, transparent 1px) 0 0 / 13px 13px,
+    linear-gradient(90deg, #a855f71d 1px, transparent 1px) 0 0 / 13px 13px,
+    var(--elevated);
+}
+
+.hero-phone {
+  inset-block-start: 34%;
+  inset-inline-end: 2%;
+  inline-size: 32%;
+  block-size: 60%;
+}
+
+.hero-pipeline {
+  inset-block-end: 4%;
+  inset-inline-start: 0;
+}
+
+.visual-line {
+  display: block;
+  min-block-size: 0.25rem;
+  border-radius: 999px;
+  background: var(--brand-border);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-header {
+    transition: none;
+  }
+
+  .hero-visual {
+    transform: none !important;
+  }
+}

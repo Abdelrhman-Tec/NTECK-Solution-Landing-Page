@@ -1,0 +1,14 @@
+# Implementation checklist
+
+Complete each phase in order and review its checks before starting the next. Use the linked prompt as the full acceptance criteria. The [final handoff](handoff.md) records the implemented scope and the acceptance checks still open for release.
+
+- [ ] [03 — Foundation, design system, and localization](prompts/03_FOUNDATION_DESIGN_I18N.md). Verify registry access and dependency peers, commit the npm lockfile, and build the strict App Router scaffold, Radix-based primitives, brand tokens, and safe config defaults. Verify the Arabic default, RTL/LTR, locale switching, and lint, typecheck, and build.
+- [ ] [04 — Header and hero](prompts/04_HEADER_HERO.md). Build sticky navigation, keyboard-accessible mobile menu, localized hero, and working CTA destinations. Verify mobile and desktop layouts, reduced motion, and keyboard interaction.
+- [ ] [05 — Marketing sections](prompts/05_MARKETING_SECTIONS.md). Build audience, services, process, why us, and technology sections in both languages. Verify inquiry links, translations, and responsive grids.
+- [ ] [06 — Portfolio](prompts/06_PORTFOLIO.md). Add typed project records, approval-gated routes, an empty state, and asset onboarding. Verify unknown and unpublished slugs return 404.
+- [ ] [07 — Calendar booking](prompts/07_GOOGLE_CALENDAR_BOOKING.md). Validate the Google appointment URL, implement the localized booking link and fallback, and check configured, missing, and invalid values.
+- [ ] [08 — Project inquiry](prompts/08_PROJECT_INQUIRY.md). Build the bilingual form, server validation, abuse controls, and delivery integration. Verify validation, unavailable and failure states, and successful provider acceptance with a mock.
+- [ ] [09 — Contact, footer, and payments](prompts/09_CONTACT_FOOTER_PAYMENTS.md). Validate contact channels, localize the footer, and show payment marks only with approval and valid assets. Verify the unconfigured state hides those entries.
+- [ ] [10 — SEO, legal, performance, and accessibility](prompts/10_SEO_LEGAL_PERFORMANCE_ACCESSIBILITY.md). Add localized metadata, indexing files, legal drafts, security headers, and accessibility improvements. Verify mobile performance and document open items.
+- [ ] [11 — Tests and quality gates](prompts/11_TESTS_QUALITY_GATES.md). Run lint, strict type checks, unit/component tests, browser tests where available, and the production build. Record actual results in `docs/qa-report.md`. Clarify the FAQ test requirement before adding a public FAQ, since none of the preceding phases defines one.
+- [ ] [12 — Final audit and handoff](prompts/12_FINAL_AUDIT_AND_HANDOFF.md). Audit both locales, production build, CTAs, external integrations, and configurations. Document deployment to a commercial-use-eligible host and deliver `docs/handoff.md`.

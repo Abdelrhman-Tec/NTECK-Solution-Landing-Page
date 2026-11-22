@@ -1,0 +1,6 @@
+# Configure Google Calendar booking
+
+1. On a computer, open [Google Calendar](https://calendar.google.com/) and choose **Create → Appointment schedule**. Set the meeting name, duration, availability, time zone, and meeting location, then save. Google manages availability, visitor time zones, and confirmation. Available features depend on the account and plan. See [Google’s appointment schedules guide](https://support.google.com/calendar/answer/11608416).
+2. Under **Booking pages**, find the intended schedule and select **Copy link**. Open the link in a private window to confirm it shows the correct public page and intended availability. Public booking pages can display the account name and profile photo. See [Google’s sharing instructions](https://support.google.com/calendar/answer/10733297).
+3. Copy `.env.example` to `.env.local` and set `NEXT_PUBLIC_GOOGLE_BOOKING_URL` to the copied public HTTPS link. Configure the same variable in the deployment environment and rebuild. The site accepts `calendar.app.google` short links and `calendar.google.com/calendar/appointments/schedules/` links.
+4. Visit `/ar#booking` and `/en#booking` and confirm that the booking button opens the intended Google page. With a missing or invalid link, the site shows a localized unavailable state and any approved channels configured in `src/config/contact.ts`.

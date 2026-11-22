@@ -1,0 +1,277 @@
+{
+  "Layout": {
+    "skipToContent": "Skip to content",
+    "language": "Language",
+    "logoPending": "Logo pending"
+  },
+  "Home": {
+    "title": "Your Idea. Engineered Into Reality.",
+    "description": "We help founders and startups plan, build, and launch digital products — from the first concept to a thoughtfully engineered MVP and beyond.",
+    "metadataTitle": "NTech Labs | MVP & Mobile App Development for Startups",
+    "eyebrow": "YOUR PRODUCT ENGINEERING PARTNER",
+    "booking": "Book a Discovery Call",
+    "work": "Explore Our Work",
+    "metadataDescription": "Plan and build your MVP, mobile application, or web product with NTech Labs. Software engineering for startup founders in Egypt and Saudi Arabia."
+  },
+  "Navigation": {
+    "label": "Main navigation",
+    "home": "Home",
+    "services": "Services",
+    "work": "Work",
+    "process": "Process",
+    "booking": "Book a Meeting",
+    "contact": "Contact",
+    "brandHome": "NTech Labs home",
+    "open": "Open menu",
+    "close": "Close menu"
+  },
+  "Marketing": {
+    "audience": {
+      "title": "Built for Founders at Every Stage.",
+      "founders": {
+        "title": "Startup founders",
+        "description": "Turn your startup vision into a focused MVP built around your most important product goals."
+      },
+      "ideas": {
+        "title": "Idea owners",
+        "description": "Have an app idea but don't know where to begin? Let's turn it into a practical product plan."
+      },
+      "products": {
+        "title": "Existing products",
+        "description": "Already have a product? Extend its capabilities with focused, maintainable engineering."
+      }
+    },
+    "services": {
+      "title": "Engineering Services for Every Product Stage.",
+      "cta": "Discuss this service",
+      "ctaLabel": "Discuss this service — {service}",
+      "discovery": {
+        "title": "Product Discovery",
+        "benefit": "Turn an early idea into a scope you can evaluate before committing to a build.",
+        "deliverableOne": "Product goals and user needs",
+        "deliverableTwo": "Prioritized scope and technical roadmap"
+      },
+      "mvp": {
+        "title": "MVP Development",
+        "benefit": "Put the core workflow in front of early users so you can learn what to build next.",
+        "deliverableOne": "Prioritized feature set and core workflows",
+        "deliverableTwo": "Tested first release and handover notes"
+      },
+      "mobile": {
+        "title": "Flutter Mobile Apps",
+        "benefit": "Deliver a consistent experience for users on Android and iOS from a shared codebase.",
+        "deliverableOne": "Mobile screens and core interactions",
+        "deliverableTwo": "Backend integration and release preparation"
+      },
+      "web": {
+        "title": "Custom Web Applications",
+        "benefit": "Give customers or internal teams a web app built around how they work.",
+        "deliverableOne": "Responsive web interfaces and workflows",
+        "deliverableTwo": "Dashboards and role-based access where in scope"
+      },
+      "backend": {
+        "title": "Laravel Backend & APIs",
+        "benefit": "Give your apps a backend that supports reliable data access and clear integrations.",
+        "deliverableOne": "Laravel API and data model",
+        "deliverableTwo": "API documentation and tests for agreed workflows"
+      },
+      "improvement": {
+        "title": "Product Improvement & Support",
+        "benefit": "Address the technical issues slowing down an existing product and prioritize the next changes.",
+        "deliverableOne": "Code and architecture review",
+        "deliverableTwo": "Prioritized fixes and agreed improvements"
+      }
+    },
+    "process": {
+      "title": "A Clear Process from Idea to Launch.",
+      "scope": "We agree on which steps and deliverables fit your project before work begins.",
+      "discover": {
+        "title": "Discover",
+        "description": "Understand your goals, users, and the problem they need to solve."
+      },
+      "plan": {
+        "title": "Plan",
+        "description": "Agree on scope, milestones, and a technical architecture."
+      },
+      "build": {
+        "title": "Build",
+        "description": "Implement the agreed workflows, share progress for review, and test key behaviors."
+      },
+      "launch": {
+        "title": "Launch",
+        "description": "Prepare deployment and handover based on the agreed scope."
+      }
+    },
+    "why": {
+      "title": "More Than Code. Thoughtful Engineering.",
+      "communication": "Direct communication with the engineer working on your product.",
+      "scope": "Deliverables and acceptance criteria agreed up front.",
+      "engineering": "Maintainable code and clear handover notes.",
+      "product": "Product decisions guided by user needs.",
+      "visibility": "Regular progress updates and clear trade-offs.",
+      "choices": "Technical choices that fit your stage and constraints."
+    },
+    "technologies": {
+      "title": "Technologies",
+      "description": "We choose tools based on the product, team, and requirements."
+    }
+  },
+  "Portfolio": {
+    "title": "Selected Work. Real Engineering.",
+    "empty": "Approved case studies will appear here when available.",
+    "read": "Read case study",
+    "readProject": "Read case study for {project}",
+    "back": "Back to selected work",
+    "problem": "The problem",
+    "solution": "The solution",
+    "contribution": "Our contribution",
+    "technologies": "Technologies",
+    "gallery": "Project screenshots",
+    "visit": "Visit the project",
+    "ownership": {
+      "founder": "Founder project",
+      "studio": "Studio project",
+      "client": "Client project"
+    }
+  },
+  "Booking": {
+    "title": "Let's Talk About Your Product.",
+    "description": "Book a convenient time to discuss your idea, product requirements, and potential next steps.",
+    "choose": "Choose a Meeting Time",
+    "googleLabel": "Choose a meeting time on Google Calendar",
+    "provider": "Google Calendar shows availability in your time zone and confirms your booking.",
+    "unavailable": "Online booking and direct contact are currently unavailable.",
+    "unavailableWithContact": "Online booking is currently unavailable. You can contact us through the channels below.",
+    "topicsTitle": "Topics we can discuss",
+    "topics": {
+      "startup": "Startup Idea Discussion",
+      "mvp": "MVP Planning",
+      "existing": "Existing Product Development"
+    },
+    "unavailableWithInquiry": "Online booking is currently unavailable. You can send us a project inquiry.",
+    "inquiryAlternative": "Send a project inquiry"
+  },
+  "Inquiry": {
+    "title": "Discuss Your Project",
+    "intro": "Tell us what you want to build or improve so we can understand the next step.",
+    "optional": "optional",
+    "select": "Select an option",
+    "submit": "Send project inquiry",
+    "sending": "Sending your inquiry…",
+    "descriptionHelp": "Share a short overview. Leave out credentials, personal records, and confidential details.",
+    "privacyNote": "NTech Labs uses your inquiry to review your project and reply. Your details are sent through our email provider, Resend.",
+    "bookingAlternative": "See meeting availability",
+    "fields": {
+      "name": "Name",
+      "email": "Email address",
+      "country": "Country",
+      "customerType": "Customer type",
+      "projectType": "Project type",
+      "description": "Project description",
+      "consent": "I agree to the use of my information to review and respond to this inquiry.",
+      "whatsapp": "WhatsApp number",
+      "company": "Company or startup",
+      "stage": "Project stage",
+      "budget": "Expected budget range",
+      "timeline": "Target timeline",
+      "website": "Website"
+    },
+    "countries": {
+      "egypt": "Egypt",
+      "saudiArabia": "Saudi Arabia"
+    },
+    "customerTypes": {
+      "founder": "Startup founder",
+      "entrepreneur": "Entrepreneur",
+      "business": "Existing business",
+      "other": "Other"
+    },
+    "projectTypes": {
+      "mobile": "Mobile app",
+      "mvp": "MVP",
+      "saas": "SaaS",
+      "web": "Web app",
+      "api": "Backend or API",
+      "existing": "Existing product",
+      "consulting": "Consulting",
+      "other": "Other"
+    },
+    "stages": {
+      "idea": "Idea",
+      "planning": "Planning",
+      "prototype": "Prototype",
+      "live": "Live product"
+    },
+    "errors": {
+      "invalid": "Enter a valid value or choose an option.",
+      "email": "Enter a valid email address.",
+      "whatsapp": "Use an international WhatsApp number starting with +.",
+      "description": "Enter a project overview of 20 to 2,400 characters.",
+      "consent": "Confirm consent before submitting."
+    },
+    "status": {
+      "accepted": "Your inquiry was accepted for delivery. Thank you for reaching out.",
+      "invalid": "Some details are invalid. Review your entries and try again.",
+      "unavailable": "Online inquiry submission is currently unavailable.",
+      "rateLimited": "Too many inquiries were submitted recently. Please try again later.",
+      "failed": "We couldn’t confirm that your inquiry was accepted. Your entries are still here. Please try again."
+    }
+  },
+  "Footer": {
+    "description": "NTech Labs — Thoughtful software engineering for founders, startups, and ambitious digital ideas.",
+    "navigation": "Footer navigation",
+    "contactTitle": "Contact channels",
+    "facebook": "Facebook",
+    "whatsapp": "WhatsApp",
+    "email": "Email NTech Labs",
+    "paymentsTitle": "Payment information",
+    "paymentDetails": "Payment arrangements are confirmed for each engagement.",
+    "copyright": "© {year} NTech Labs",
+    "legalNavigation": "Legal links",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "LegalNotice": {
+    "pending": "Draft pending approval.",
+    "privacy": {
+      "title": "Privacy",
+      "description": "If you submit an inquiry, NTech Labs uses your details to review your project and reply. The configured email provider processes the inquiry for delivery.",
+      "first": {
+        "title": "Information you provide",
+        "body": "The inquiry form asks for your name, email, country, customer and project types, project overview, and consent. WhatsApp number, company name, project stage, budget range, and timeline are optional."
+      },
+      "second": {
+        "title": "How your inquiry is handled",
+        "body": "When online submission is enabled, NTech Labs uses this information to assess and reply to your inquiry. Resend processes it for email delivery to the configured inbox. The site has no local submissions database. To limit abuse, Upstash Redis holds expiring counters keyed to a one-way, keyed hash of the visitor IP for up to one hour. Inquiry text is sent only to the mail provider."
+      },
+      "third": {
+        "title": "Booking and contact services",
+        "body": "If you choose to book a meeting, Google Calendar handles scheduling and any details you provide on its booking page. When you use external contact links, the destination service handles the information you share there."
+      },
+      "review": {
+        "title": "Details pending owner approval",
+        "body": "Confirm the legal name of the organization responsible for the information, a privacy contact, retention periods for the inbox and provider, and any applicable rights and request process before enabling live intake."
+      }
+    },
+    "terms": {
+      "title": "Terms",
+      "description": "Engagement scope, deliverables, and payment arrangements are agreed separately for each project.",
+      "first": {
+        "title": "Project inquiries and meetings",
+        "body": "An inquiry or discovery meeting starts a discussion about your project. A project engagement begins under its own agreed scope and terms."
+      },
+      "second": {
+        "title": "Scope and delivery",
+        "body": "The parties agree on deliverables, milestones, responsibilities, review criteria, and handover arrangements for each engagement."
+      },
+      "third": {
+        "title": "Payments and project materials",
+        "body": "Payment terms, accepted methods, and rights to project materials are addressed in the engagement agreement. Share only project materials you have permission to use."
+      },
+      "review": {
+        "title": "Details pending owner approval",
+        "body": "Confirm the legal contracting entity, applicable jurisdiction, approved contact channel, and any project-specific payment, cancellation, and dispute provisions before publishing these terms."
+      }
+    }
+  }
+}
